@@ -129,6 +129,11 @@ on boot
     chown system system /sys/class/thermal/thermal_message/sconfig
 
 on property:sys.boot_completed=1
+
+    # Dolby
+    mkdir /data/vendor/dolby 0770 media media
+    mkdir /data/vendor/multimedia 0775 system system
+
     # Runtime fs tuning
     write /sys/block/sda/queue/read_ahead_kb 128
     write /sys/block/sda/queue/nr_requests 128
