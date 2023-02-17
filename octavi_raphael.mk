@@ -35,6 +35,10 @@ WITH_GMS := true
 OCTAVI_BUILD_TYPE := Official
 OCTAVI_MAINTAINER := pbharadwaj_95
 
+# UDFPS
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := octavi_raphael
 PRODUCT_DEVICE := raphael
