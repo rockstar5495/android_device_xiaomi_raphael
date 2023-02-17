@@ -31,6 +31,10 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_GAPPS_ARCH := arm64
 WITH_GMS := true
 
+# Octavi
+OCTAVI_BUILD_TYPE := Official
+OCTAVI_MAINTAINER := pbharadwaj_95
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := octavi_raphael
 PRODUCT_DEVICE := raphael
