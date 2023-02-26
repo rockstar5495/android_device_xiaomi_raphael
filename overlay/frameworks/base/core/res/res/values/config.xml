@@ -608,4 +608,7 @@
 
     <!-- Ignore CNE from privacy (location) indicators -->
     <string name="config_systemTelephonyPackage" translatable="false">com.qualcomm.qti.cne</string>
+
+    <!-- Whether devices suports under display fingerprint when screen off -->
+    <bool name="config_supportScreenOffUdfps">true</bool>
 </resources>
