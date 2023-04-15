@@ -95,6 +95,7 @@ persist.rcs.supported=1
 DEVICE_PROVISIONED=1
 persist.radio.dynamic_sar=false
 persist.radio.multisim.config=dsds
+persist.sys.radio.force_lte_ca=true
 persist.radio.NO_STAPA=1
 persist.radio.VT_HYBRID_ENABLE=1
 ril.subscription.types=NV,RUIM
