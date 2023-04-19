@@ -29,7 +29,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # GApps
 TARGET_GAPPS_ARCH := arm64
-WITH_GMS := true
+WITH_GAPPS := true
 
 # Octavi
 OCTAVI_BUILD_TYPE := Official
@@ -49,5 +49,7 @@ PRODUCT_CHARACTERISTICS := nosdcard
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="raphael"
+    PRIVATE_BUILD_DESC="raphaelin-user 11 RKQ1.200826.002 v12.5.1.0.RFKINXM release-keys"
+    BUILD_FINGERPRINT := Xiaomi/raphaelin/raphaelin:11/RKQ1.200826.002/V12.5.1.0.RFKINXM:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
