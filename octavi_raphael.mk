@@ -29,7 +29,6 @@ TARGET_SCREEN_WIDTH := 1080
 
 # GApps
 TARGET_GAPPS_ARCH := arm64
-WITH_GAPPS := true
 
 # Octavi
 OCTAVI_BUILD_TYPE := Official
