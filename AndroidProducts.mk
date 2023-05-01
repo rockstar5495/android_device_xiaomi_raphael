@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/octavi_raphael.mk
+    $(LOCAL_DIR)/colt_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    octavi_raphael-user \
-    octavi_raphael-userdebug \
-    octavi_raphael-eng
+    colt_raphael-user \
+    colt_raphael-userdebug \
+    colt_raphael-eng
