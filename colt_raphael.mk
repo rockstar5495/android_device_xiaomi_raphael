@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from raphael device
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
-# Inherit some common Octavi stuff.
+# Inherit some common Colt configuration.
 $(call inherit-product, vendor/colt/config/common_full_phone.mk)
 
 # Boot animation
@@ -32,7 +32,7 @@ TARGET_GAPPS_ARCH := arm64
 
 # Octavi
 COLT_BUILD_TYPE := Official
-OCTAVI_BUILD_MAINTAINER := pbharadwaj_95
+COLT_BUILD_MAINTAINER := pbharadwaj_95
 
 # UDFPS
 TARGET_HAS_UDFPS := true
