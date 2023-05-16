@@ -20,8 +20,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from raphael device
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
-# Inherit some common Blaze stuff.
-$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
+# Inherit some common Colt stuff.
+$(call inherit-product, vendor/colt/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
@@ -29,18 +29,17 @@ TARGET_SCREEN_WIDTH := 1080
 
 # GApps
 TARGET_GAPPS_ARCH := arm64
-WITH_GAPPS := true
 
-# Octavi
-BLAZE_BUILD_TYPE := OFFICIAL
-BLAZE_MAINTAINER := pbharadwaj_95
+# Colt
+COLT_BUILD_TYPE := OFFICIAL
+COLT_DEVICE_MAINTAINER := pbharadwaj_95
 
 # UDFPS
 TARGET_HAS_UDFPS := true
 EXTRA_UDFPS_ANIMATIONS := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := blaze_raphael
+PRODUCT_NAME := colt_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi K20 Pro

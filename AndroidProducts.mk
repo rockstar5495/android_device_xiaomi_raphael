@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_raphael.mk
+    $(LOCAL_DIR)/colt_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_raphael-user \
-    blaze_raphael-userdebug \
-    blaze_raphael-eng
+    colt_raphael-user \
+    colt_raphael-userdebug \
+    colt_raphael-eng
