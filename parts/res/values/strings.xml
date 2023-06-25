@@ -20,7 +20,7 @@
 
     <!-- DC dimming settings -->
     <string name="dc_dimming_enable_title">DC Dimming</string>
-    <string name="dc_dimming_enable_summary">Reduces eye strain in low light conditions</string>
+    <string name="dc_dimming_enable_summary">Reduces flickering, eye strain in low light conditions</string>
     <string name="dc_dimming_enable_summary_not_supported">DC Dimming is currently not supported by the kernel</string>
 
     <!-- Dirac settings -->
