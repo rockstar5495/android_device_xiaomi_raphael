@@ -143,6 +143,9 @@ persist.timed.enable=true
 # WiFi
 config.disable_rtt=true
 
+# system property for DisplayFeature hidl
+sys.displayfeature_hidl=true
+
 # Expose aux camera for below packages
 vendor.camera.aux.packagelist=com.qualcomm.saltproject2,com.miui.cit,com.android.camera
 
