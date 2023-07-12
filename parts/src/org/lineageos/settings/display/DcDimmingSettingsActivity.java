@@ -22,15 +22,14 @@ import android.os.Bundle;
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
 import com.android.settingslib.widget.R;
 
-public class DisplaySettingsActivity extends CollapsingToolbarBaseActivity {
+public class DcDimmingSettingsActivity extends CollapsingToolbarBaseActivity {
 
     private static final String TAG_DCDIMMING = "dcdimming";
-    private static final String TAG_HBM = "hbm";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getFragmentManager().beginTransaction().replace(R.id.content_frame,
-                new DisplaySettingsFragment(), TAG_DCDIMMING).commit();
+                new DcDimmingSettingsFragment(), TAG_DCDIMMING).commit();
     }
 }
